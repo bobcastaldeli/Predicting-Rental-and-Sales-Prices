@@ -17,12 +17,11 @@ Para este projeto foram utilizados os seguintes pacotes:
 * **Visualização de Dados**
 	* Matplotlib;
 	* Seaborn;
-	* Graphviz;
+	* Plotly;
 	* Yellowbrick;
 
 * **Machine Learning e Otimização**
 	* Scikit-Learn;
 	* XGBoost;
 	* LightGBM;
-	* IMBLearn;
 	* Scikit-Optmize;
