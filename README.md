@@ -12,7 +12,7 @@ Para este projeto foram utilizados os seguintes pacotes:
 	* Numpy;
 	* Pandas;
 	* Pingouin;
-	* 
+	* Statsmodels;
 
 * **Visualização de Dados**
 	* Matplotlib;
