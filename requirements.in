@@ -3,7 +3,9 @@ pandas
 matplotlib
 seaborn
 plotly
+statsmodels
 scikit-learn==1.2.2
 lightgbm
 xgboost
+feature-engine
 optuna

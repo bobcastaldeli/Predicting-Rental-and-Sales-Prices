@@ -14,6 +14,8 @@ contourpy==1.0.7
     # via matplotlib
 cycler==0.11.0
     # via matplotlib
+feature-engine==1.6.0
+    # via -r requirements.in
 fonttools==4.39.4
     # via matplotlib
 greenlet==2.0.2
@@ -43,13 +45,16 @@ numpy==1.24.3
     #   -r requirements.in
     #   cmaes
     #   contourpy
+    #   feature-engine
     #   lightgbm
     #   matplotlib
     #   optuna
     #   pandas
+    #   patsy
     #   scikit-learn
     #   scipy
     #   seaborn
+    #   statsmodels
     #   xgboost
 optuna==3.1.1
     # via -r requirements.in
@@ -58,10 +63,15 @@ packaging==23.1
     #   matplotlib
     #   optuna
     #   plotly
+    #   statsmodels
 pandas==2.0.1
     # via
     #   -r requirements.in
+    #   feature-engine
     #   seaborn
+    #   statsmodels
+patsy==0.5.3
+    # via statsmodels
 pillow==9.5.0
     # via matplotlib
 plotly==5.14.1
@@ -79,20 +89,29 @@ pyyaml==6.0
 scikit-learn==1.2.2
     # via
     #   -r requirements.in
+    #   feature-engine
     #   lightgbm
 scipy==1.10.1
     # via
+    #   feature-engine
     #   lightgbm
     #   scikit-learn
+    #   statsmodels
     #   xgboost
 seaborn==0.12.2
     # via -r requirements.in
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   patsy
+    #   python-dateutil
 sqlalchemy==2.0.15
     # via
     #   alembic
     #   optuna
+statsmodels==0.14.0
+    # via
+    #   -r requirements.in
+    #   feature-engine
 tenacity==8.2.2
     # via plotly
 threadpoolctl==3.1.0
