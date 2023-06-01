@@ -21,6 +21,7 @@ Sphinx
 nbmake
 nbqa
 tox
+kaggle
 squarify
 uvicorn
 fastapi

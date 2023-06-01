@@ -1,3 +1,6 @@
+dataset:
+  name: argonalyst/sao-paulo-real-estate-sale-rent-april-2019
+  raw_folder: data/raw
 split_data:
   test_size: 0.2
   random_state: 42
