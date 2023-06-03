@@ -24,7 +24,9 @@ if len(sys.argv) != 3 and len(sys.argv) != 5:
 
 
 input_path, output_path = sys.argv[1], sys.argv[2]
-input_path = os.path.join(input_path, "telco-customer-churn.zip")
+input_path = os.path.join(
+    input_path, "sao-paulo-real-estate-sale-rent-april-2019.zip"
+)
 train_output_path = os.path.join(output_path, "train.csv")
 test_output_path = os.path.join(output_path, "test.csv")
 
