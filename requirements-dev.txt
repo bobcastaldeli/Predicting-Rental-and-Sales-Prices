@@ -664,7 +664,7 @@ tzlocal==5.0.1
     # via streamlit
 uri-template==1.2.0
     # via jsonschema
-urllib3==2.0.2
+urllib3==2.0.3
     # via
     #   kaggle
     #   requests
